@@ -1,6 +1,6 @@
 # copyZhihu
 知乎复制内容
-
+```
 // 创建复制按钮（支持富文本和图片）
 function createCopyButton() {
   // 移除已存在的按钮
@@ -260,3 +260,4 @@ document.addEventListener('mouseup', () => {
   button.style.opacity = hasContent ? '1' : '0.6';
   button.style.pointerEvents = hasContent ? 'auto' : 'none';
 });
+```
